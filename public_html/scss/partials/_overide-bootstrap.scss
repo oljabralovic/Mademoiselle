@@ -1,0 +1,29 @@
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+$grid-gutter-width: 2.4rem;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1140px //1320px
+);
+$h1-font-size: 6rem;
+$h2-font-size: 4.4rem;
+$h3-font-size: 3rem;
+$body-color: #000;
+$blush-pink: #ECD9D9;
+$navbar-light-color:                #000;
+$navbar-light-hover-color:          #D0B6B6;
+$navbar-light-active-color:         #D0B6B6;
+
+$underline-margin-top: 28px;
+$underline-margin-bottom: 46px;
+
+.section-underline {
+  margin-top: $underline-margin-top;
+  margin-bottom: $underline-margin-bottom;
+}

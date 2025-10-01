@@ -1,0 +1,83 @@
+.blog {
+    padding: 6.7rem 0 0 0;
+    position: relative;
+
+    .stay-content {
+    margin-bottom: 10rem;
+        @media (max-width: 576px) {
+            .stay-text {
+                color: #000 !important;
+                font-weight: 700 !important;
+            }
+            margin-bottom: 1;
+        }
+        .trend-item-wrapper {
+            position: relative;
+            display: inline-block;
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 0.25rem;
+            }
+
+        }
+
+        .stay-info {
+
+            position: absolute;
+            top: 159px;
+            left: 2.7rem;
+            width: 302px;
+            height: 190px;
+            //padding: 20px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 0.25rem;
+
+            .date {
+                font-style: italic;
+                font-size: 1.4rem;
+                line-height: 4.6rem;
+                font-weight: 500;
+                font-family: 'Playfair Display', serif;
+                text-transform: uppercase;
+                color: rgba(0, 0, 0, 1);
+                margin-bottom: 2px;
+            }
+            .stay-text {
+                animation: instant;
+                align-items: center;
+                letter-spacing: 10%;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                font-weight: 500;
+                font-family: Lato, sans-serif;
+                color: rgba(0, 0, 0, 1);
+                white-space: normal;
+                padding: 0 10px;
+                box-sizing: border-box;
+                max-width: 100%;
+            }
+
+            @media (max-width: 576px) {
+                opacity: 0.5;
+                    background: transparent;
+                    color: rgba(0, 0, 0, 1);
+                    
+                    
+                    border-radius: 0;
+                    top: auto; // skida fiksnu vrednost
+                    bottom: 0rem; // lepi na dno slike
+                    left: 50%; // centriranje horizontalno
+                    transform: translateX(-50%);
+                    width: 80%; // da ne izlazi van slike
+                    padding: 2.5rem 0.5rem;
+            }
+          
+
+
+        }
+
+    }
+}

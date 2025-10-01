@@ -1,0 +1,78 @@
+.stay {
+    padding: 6.7rem 0 0 0;
+    position: relative;
+
+    .stay-title {
+        margin-bottom: 6.9rem;
+        text-decoration: none;
+    }
+
+    .stay-content {
+        //margin-bottom: 4.9rem;
+        @media (max-width: 576px) {
+            margin-bottom: 0;
+        }
+        .trend-item-wrapper {
+            position: relative;
+            display: inline-block;
+
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 0.25rem;
+            }
+
+        }
+
+        .stay-info {
+
+            position: absolute;
+            top: 159px;
+            left: 2.7rem;
+            width: 302px;
+            height: 154px;
+            //padding: 20px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 0.25rem;
+
+            .date {
+                font-style: italic;
+                font-size: 1.4rem;
+                line-height: 4.6rem;
+                font-weight: 500;
+                font-family: 'Playfair Display', serif;
+                text-transform: uppercase;
+                color: rgba(0, 0, 0, 1);
+                margin-bottom: 2px;
+            }
+            .stay-text {
+                //padding: 2px 25px 30px 2px;
+                animation: instant;
+                align-items: center;
+                letter-spacing: 10%;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                font-weight: 500;
+                font-family: Lato, sans-serif;
+                //text-align: center;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            @media (max-width: 576px) {
+                top: auto; // skida fiksnu vrednost
+                bottom: 1rem; // lepi na dno slike
+                left: 50%; // centriranje horizontalno
+                transform: translateX(-50%);
+                width: 80%; // da ne izlazi van slike
+                height: auto; // visina po sadržaju
+                padding: 1rem;
+            }
+
+
+
+        }
+
+    }
+}

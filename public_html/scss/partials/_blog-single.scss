@@ -1,0 +1,117 @@
+// Globalni stilovi za tags-list i tag-item
+.tags-list {
+    font-family: 'Lato',sans-serif;
+    font-size: 1.4rem;
+    align-items: center;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 1);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+.tag-item {
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.3rem 1.2rem;
+    border-radius: 2rem;
+}
+.blog-single {
+    @media (max-width: 768px) {
+        background-size: cover;
+        background-position: center top;
+        .blog-single-content {
+            position: relative;
+            z-index: 2;
+            background: rgba(255,255,255,0.95);
+            padding: 2rem 1rem;
+            margin: 2rem 0;
+            border-radius: 1rem;
+        }
+    }
+    //padding: 6.7rem 0 10.4rem;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50% auto;
+     @media (max-width: 576px) {
+            margin-bottom: 0;
+            background: transparent;
+
+        }
+
+    .blog-single-content {
+        background-color: rgba(#fff, 0.6);
+        .blog-catergories {
+            a {
+                line-height: 4.6rem;
+                font-size: 1.4rem;
+            }
+        }
+        .separator {
+            line-height: 4.6rem;
+            font-size: 1.4rem;
+            margin: 0 0.8rem;
+        }
+
+        .blog-date {
+            line-height: 4.6rem;
+            font-size: 1.4rem;
+        }
+        .blog-descroption{
+            margin-bottom: 11.5rem;
+        }
+        .blog-single-info{
+            //padding-top: 2rem;
+            a, p{
+                color:rgba(0, 0, 0, 1);
+                text-decoration: none;  
+               }
+        }
+        .blog-title{
+            font-weight: 400;
+            font-size:4.4rem;
+            line-height: 5.3rem;
+            text-transform: uppercase;
+            color: rgba(0,0,0,1);
+            font-family: 'lato', sans-serif;
+            margin-bottom: 2.6rem;
+        }
+        .blog-descroption{
+            font-family: 'lato',sans-serif;
+            font-weight: 300;
+            font-size: 1.8rem;
+            line-height: 2.6rem;
+            color: rgba(0,0,0,1);
+        }
+
+    }
+}
+.blog-content{
+    .blog-content-data{
+        p{
+           font-family: 'Lato', sans-serif;
+           font-weight: 300;
+           font-size: 1.6rem;
+           line-height: 2.6rem;
+           color:rgb(0, 0, 1);
+           margin-bottom: 3.7rem;
+; 
+        }
+        //h6{
+           // font-family: "Playfair Display", serif;
+           // font-weight: 500;
+            //font-size: 1.4rem;
+            //line-height: 4.6rem;
+            //color:rgba(0,0,0,1);
+        }
+        //nav.tags-list, 
+        //.tags-list {
+           // font-family: 'Lato',sans-serif;
+          // font-size: 1.4rem;
+           // align-items: center;
+           // text-transform: uppercase;
+          //  color:rgba(0, 0, 0, 1);
+        //}
+    }

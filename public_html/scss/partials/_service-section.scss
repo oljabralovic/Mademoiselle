@@ -1,0 +1,94 @@
+.service-section {
+    padding: 9.7rem 0 0 0;
+}
+
+.service-section .row {
+    display: flex;
+    align-items: stretch;
+}
+.service-section .col-12,
+.service-section .col-xl-6 {
+    display: flex;
+    align-items: stretch;
+}
+.service-content {
+    flex: 1 1 0;
+    height: auto;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+@media (max-width: 991px) {
+    .service-content {
+        padding: 2rem 1rem;
+    }
+}
+.service-section {
+    padding: 6.7rem 0 0 0;
+    .service-title{
+        margin-bottom: 7.4rem;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            color: #1220e4;
+        }
+    }
+    .service-content {
+        box-sizing: border-box;
+        background-color: rgba(245, 245, 245, 1);
+        border-radius: 0.25rem;
+        padding: 16.2rem 8.3rem 16.2rem 7.1rem;
+        align-items: stretch;
+        gap: 0;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+            border-radius: 0;
+            display: block;
+            object-fit: cover;
+        }
+
+        .service-item {
+            margin-bottom: 4.2rem;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-style: regular;
+            font-size: 3.6rem;
+            line-height: 46px;
+            text-transform: uppercase;
+            align-items: left;
+            color: rgba(0, 0, 0, 1);
+        }
+        .service-btn{
+          //border: dashed  1px rgba(0, 0, 0, 1);
+          font-weight: 500;
+          font-style: medium;
+          font-size: 14px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: rgba(0, 0, 0, 1);
+          border: 2px solid #000000;
+          letter-spacing: 10%;
+          white-space: normal;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 162px;
+          height: 55px;
+          padding: 0;
+        }
+        //.img{
+          //  width:100%;
+            //margin:0;
+            //padding: 0;
+        //}
+    }
+}

@@ -1,0 +1,145 @@
+.trust {
+    padding: 6.7rem 0 0 0;
+
+    .trust-title {
+        margin-bottom: 7.5rem;
+    }
+
+    .trust-info {
+        box-sizing: border-box;
+        border: 2px solid rgba(236, 217, 217, 1);
+
+        .trust-image {
+            padding-top: 87px;
+            padding-bottom: 87px;
+            padding-left: 94px;
+            // padding-right: 0;
+            display: block;
+        }
+        .trust-content {
+
+            margin-left: 9.5rem;
+            text-align: left;
+
+            .trust-content-title {
+                margin-bottom: 1.7rem;
+                font-size: 3.6rem;
+                line-height: 4.6rem;
+                text-transform: uppercase;
+                font-family: 'Lato', sans-serif;
+                color: rgba(0, 0, 0, 1);
+                font-style: regular;
+
+            }
+
+            .trust-content-description {
+                font-family: 'Lato', sans-serif;
+                margin-right: 9.5rem;
+                font-weight: 300;
+                font-size: 1.6rem;
+                line-height: 2.8rem;
+                letter-spacing: 0%;
+                color: rgba(0, 0, 0, 1);
+                font-weight: lighter;
+            }
+        }
+
+
+        @media (max-width: 576px) {
+            .trust-content {
+                margin-left: 0;
+                margin-right: 0;
+                text-align: center;
+                padding: 0 2rem;
+
+
+                .trust-content-title {
+                    padding-top: 5px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    text-align: center;
+                }
+
+                .trust-content-description {
+                    //margin-right: 0;
+                    padding-top: 30px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 30px;
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .trust-info {
+                text-align: center;
+
+                .trust-image {
+                    padding: 0;
+                }
+
+                .trust-image img {
+                    display: block;
+                    margin: 0 auto;
+                    max-width: 100%;
+                    height: auto;
+                }
+
+                .trust-content-title {
+                    padding-top: 5px;
+                    text-align: center;
+                    padding-left: 30px;
+                    padding-right: 30px;
+
+                }
+
+                .trust-content-description {
+                    padding-top: 30px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 768px) {
+        .trust-info {
+
+            text-align: center;
+
+            .trust-image {
+                padding: 0;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    margin: 0;
+                    max-width: auto;
+                }
+            }
+
+            .trust-content {
+                margin-left: 0; // resetuje tvoje 9.5rem
+                margin-right: 0;
+                padding: 0 2rem; // da ne nalegne na ivice
+                text-align: center;
+            }
+
+            .trust-content-title {
+                padding-top: 1rem;
+                text-align: center;
+            }
+
+            .trust-content-description {
+                padding: 2rem 0;
+                text-align: center;
+            }
+        }
+    }
+}
